@@ -17,3 +17,6 @@ include 'services:webservice'
 */
 
 rootProject.name = 'bingo-game'
+
+include 'bingo-frontend'
+include 'bingo-server'
