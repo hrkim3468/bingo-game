@@ -6,3 +6,5 @@ src/libs
 # grunt
 dist
 .tmp
+#gradle
+build
