@@ -1,12 +1,12 @@
-package com.navercorp;
+package kr.or.javacafe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DefaultSpringbootWebMavenApplication {
+public class BingoGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DefaultSpringbootWebMavenApplication.class, args);
+        SpringApplication.run(BingoGatewayApplication.class, args);
     }
 }

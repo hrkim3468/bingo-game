@@ -1,0 +1,6 @@
+bingo-frontend/
+bingo-server/
+.project
+.mvn
+.settings
+target/
