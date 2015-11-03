@@ -1,6 +1,4 @@
-bingo-frontend/
-bingo-server/
 .project
-.mvn
-.settings
+.mvn/
+.settings/
 target/

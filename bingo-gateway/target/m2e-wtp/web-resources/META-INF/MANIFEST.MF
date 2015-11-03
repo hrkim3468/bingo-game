@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
-Implementation-Title: default-springboot-web-maven
+Implementation-Title: bingo-gateway
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: NAVER
-Implementation-Vendor-Id: com.navercorp
+Implementation-Vendor-Id: kr.or.javacafe
 Build-Jdk: 1.8.0_60
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.

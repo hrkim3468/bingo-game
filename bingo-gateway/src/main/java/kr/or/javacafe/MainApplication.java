@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BingoGatewayApplication {
+public class MainApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BingoGatewayApplication.class, args);
+        SpringApplication.run(MainApplication.class, args);
     }
 }

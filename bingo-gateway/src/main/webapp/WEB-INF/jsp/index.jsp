@@ -7,7 +7,7 @@
 <html>
 
 <body>
-	<p>Hello Sample</p>
+	<p>Gateway 서버입니다.</p>
 </body>
 
 </html>
