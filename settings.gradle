@@ -1,4 +1,5 @@
 rootProject.name = 'bingo-game'
 
 include ':bingo-frontend'
-include ':bingo-server'
+include ':bingo-apiclient'
+
