@@ -1,0 +1,46 @@
+dependencies {
+    testCompile 'junit:junit:4.11'
+}
+
+	task gruntInstall(type:Exec) {
+        logging.captureStandardOutput LogLevel.INFO
+        logging.captureStandardError LogLevel.LIFECYCLE
+        
+        inputs.files "package.json"
+        outputs.files "node_modules"
+
+        commandLine "C:\\Program Files\\nodejs\\npm.cmd", "install"       		
+	}
+	
+	task bowerInstall(type:Exec, dependsOn: [gruntInstall]) {
+        logging.captureStandardOutput LogLevel.INFO
+        logging.captureStandardError LogLevel.LIFECYCLE
+        
+        inputs.files "bower.json"
+        outputs.files "src/libs"
+
+        commandLine "C:\\Program Files\\nodejs\\npm.cmd", "install"       		
+	}
+	
+	task gruntBuild(type:Exec, dependsOn: [bowerInstall]) {
+    	logging.captureStandardOutput LogLevel.INFO
+    	logging.captureStandardError LogLevel.LIFECYCLE
+ 		
+ 		inputs.dir "src"
+ 		outputs.dir "dist"
+ 		
+ 		commandLine "C:\\Users\\NAVER.AL010\\AppData\\Roaming\\npm\\grunt.cmd", "real"
+	}
+	sourceSets.main.resources { 
+		srcDirs "dist" 
+	}
+	jar {
+		from "dist"
+		includeEmptyDirs = false
+	}
+	jar.dependsOn gruntBuild
+	
+	clean {
+		delete ".tmp"
+		delete "dist"
+	}
