@@ -9,7 +9,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	
 	<packaging>jar</packaging>
 	
-	<name>bingo-core 프로젝트</name>
+	<name>bingo-core 라이브러리 프로젝트</name>
 	<description>빙고 게임 프로젝트에서 공통으로 사용하는 패키지 프로젝트</description>
   
 
@@ -26,7 +26,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	
 	  
  	<properties>
-		<fos-utils.version>0.0.1-SNAPSHOT</fos-utils.version>
 
 		<!-- Default -->
 		<servlet.version>2.5</servlet.version>

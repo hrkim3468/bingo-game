@@ -23,6 +23,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		<bingo-core.version>0.0.1-SNAPSHOT</bingo-core.version>
 	</properties>
 
 	<dependencies>
@@ -47,7 +48,7 @@
 		<dependency>
 		  <groupId>kr.or.javacafe</groupId>
 		  <artifactId>bingo-core</artifactId>
-		  <version>0.0.1-SNAPSHOT</version>
+		  <version>${bingo-core.version}</version>
 		</dependency>
 
 		<!-- JSP -->

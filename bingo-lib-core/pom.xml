@@ -4,13 +4,19 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	<modelVersion>4.0.0</modelVersion>
 	 
 	<groupId>kr.or.javacafe</groupId>
-	<artifactId>bingo-core</artifactId>
+	<artifactId>bingo-lib-core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<packaging>jar</packaging>
+	<!-- 라이브러리 Parent 설정 -->
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>bingo-core</module>
+	</modules>
 	
-	<name>bingo-core 프로젝트</name>
-	<description>빙고 게임 프로젝트에서 공통으로 사용하는 패키지 프로젝트</description>
+		
+	<name>bingo-core library</name>
+	<description>bingo-core library</description>
   
 
 	<distributionManagement>
@@ -26,7 +32,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	
 	  
  	<properties>
-		<fos-utils.version>0.0.1-SNAPSHOT</fos-utils.version>
 
 		<!-- Default -->
 		<servlet.version>2.5</servlet.version>

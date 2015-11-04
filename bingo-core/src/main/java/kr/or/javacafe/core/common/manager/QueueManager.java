@@ -1,4 +1,4 @@
-package kr.or.javacafe.common.manager;
+package kr.or.javacafe.core.common.manager;
 
 import javax.annotation.PostConstruct;
 

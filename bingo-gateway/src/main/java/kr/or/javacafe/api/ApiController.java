@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import kr.or.javacafe.common.manager.QueueManager;
+import kr.or.javacafe.core.common.manager.QueueManager;
 
 
 @RestController
